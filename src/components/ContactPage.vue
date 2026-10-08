@@ -56,7 +56,7 @@
               <div class="mr-3 text-primary"><i class="fas fa-map-marker-alt fa-lg"></i></div>
               <div>
                 <strong class="d-block small">Computer Laboratory:</strong>
-                <span class="text-muted small">Tech Building, Room 402</span>
+                <span class="text-muted small">Holy Angel University, MGN-202</span>
               </div>
             </div>
 
@@ -64,7 +64,7 @@
               <div class="mr-3 text-primary"><i class="fas fa-envelope fa-lg"></i></div>
               <div>
                 <strong class="d-block small">Email Inquiries:</strong>
-                <span class="text-muted small">weblab@university.edu</span>
+                <span class="text-muted small">rccincognito@gmail.com</span>
               </div>
             </div>
 

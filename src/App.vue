@@ -209,4 +209,49 @@ h2.text-primary {
   border-color: #22C55E !important;
   color: #052E16 !important;
 }
+
+/* ===== Navbar polish ===== */
+.navbar.bg-primary {
+  background: linear-gradient(135deg, #16a34a 0%, #14532d 100%) !important;
+  border-bottom: 1px solid rgba(74, 222, 128, 0.35);
+  box-shadow: 0 4px 20px rgba(34, 197, 94, 0.25) !important;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+
+/* Brand */
+.navbar-brand {
+  font-size: 1.35rem;
+  letter-spacing: 0.5px;
+  border-bottom: none !important;
+}
+.navbar-brand i {
+  color: #86efac;
+}
+
+/* Links */
+.navbar .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+  padding: 0.45rem 0.9rem;
+  margin: 0 0.15rem;
+  border-radius: 999px;
+  border-bottom: none;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+/* Active page: pill instead of underline */
+.navbar .navbar-nav .nav-link.router-link-exact-active {
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff !important;
+  font-weight: 700;
+  border-bottom: none;
+}
 </style>
